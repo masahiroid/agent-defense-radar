@@ -1,0 +1,32 @@
+{
+  "title": "Agent Defense Radar",
+  "upload_type": "software",
+  "description": "A defensive visualization of indirect prompt injection against LLM agents (Japanese and English): attention, surprisal and actual outputs recorded from a real model (LLM-jp-4.1-8B-thinking, 4-bit MLX) with and without a guard prompt, plus a live test of the user's own OpenAI-compatible model.",
+  "creators": [
+    {
+      "name": "Nakatsugawa, Masahiro",
+      "orcid": "0009-0000-3224-0103"
+    }
+  ],
+  "license": "apache-2.0",
+  "keywords": [
+    "llm-security",
+    "prompt-injection",
+    "visualization",
+    "attention",
+    "agent-security",
+    "japanese"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/masahiroid/agent-defense-radar",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://huggingface.co/spaces/masahiroid/agent-defense-radar",
+      "relation": "isAlternateIdentifier",
+      "scheme": "url"
+    }
+  ]
+}

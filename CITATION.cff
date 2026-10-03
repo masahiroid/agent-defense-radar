@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using these metadata."
+title: "Agent Defense Radar"
+type: software
+authors:
+  - family-names: Nakatsugawa
+    given-names: Masahiro
+    orcid: "https://orcid.org/0009-0000-3224-0103"
+abstract: >-
+  A defensive visualization of indirect prompt injection against LLM agents (Japanese and English):
+  attention, surprisal and actual outputs recorded from a real model (LLM-jp-4.1-8B-thinking, 4-bit MLX)
+  with and without a guard prompt, plus a live test of the user's own OpenAI-compatible model.
+repository-code: "https://github.com/masahiroid/agent-defense-radar"
+url: "https://huggingface.co/spaces/masahiroid/agent-defense-radar"
+license: Apache-2.0
+keywords:
+  - llm-security
+  - prompt-injection
+  - visualization
+  - attention
+  - agent-security
+  - japanese

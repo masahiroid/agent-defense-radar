@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #0a0e17;
+  --color-panel: #0f1626;
+  --color-cyan: #00f2fe;
+  --color-blue: #4facfe;
+  --color-danger: #ff0844;
+  --color-warn: #ffd23f;
+  --font-mono: "JetBrains Mono", "Inter", ui-monospace, monospace;
+}
+
+html, body, #root { min-height: 100%; margin: 0; }
+body {
+  background: var(--color-bg);
+  color: #cfe8ff;
+  font-family: var(--font-mono);
+  font-size: 13px;
+}
+.panel {
+  background: linear-gradient(180deg, #0f1626, #0b1220);
+  border: 1px solid rgba(79, 172, 254, 0.25);
+  border-radius: 8px;
+  box-shadow: 0 0 18px rgba(0, 242, 254, 0.06) inset;
+}
+.panel-title { color: var(--color-cyan); letter-spacing: .12em; font-size: 11px; }
+@keyframes blink { 50% { opacity: .25; } }
+.blink { animation: blink 1.2s infinite; }
