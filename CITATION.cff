@@ -13,6 +13,9 @@ abstract: >-
 repository-code: "https://github.com/masahiroid/agent-defense-radar"
 url: "https://huggingface.co/spaces/masahiroid/agent-defense-radar"
 license: Apache-2.0
+doi: 10.5281/zenodo.23123351
+version: "0.1.0"
+date-released: "2026-10-04"
 keywords:
   - llm-security
   - prompt-injection
