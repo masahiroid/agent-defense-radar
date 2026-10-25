@@ -22,7 +22,7 @@
     "oxlint": "^1.81.0",
     "tailwindcss": "^4.3.3",
     "typescript": "~6.0.2",
-    "vite": "^8.3.0"
+    "vite": "^8.3.5"
   },
   "license": "Apache-2.0",
   "description": "Defensive visualization of indirect prompt injection against LLM agents (JA/EN), with attention traces recorded from a real model",
